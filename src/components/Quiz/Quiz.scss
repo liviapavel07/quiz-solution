@@ -1,0 +1,15 @@
+.quizWindow {
+  width: 100%;
+  height: 100%;
+  padding-top: 20vh;
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+  .timer{
+    margin-bottom: 20px;
+    text-align: center;
+  }
+}
+

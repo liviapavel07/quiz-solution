@@ -1,0 +1,23 @@
+.question {
+  width: 40vw;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+
+  .choices{
+    margin-left: 32px;
+    span{
+      color: white!important;
+    }
+  }
+
+  .actionButtons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+
+    .prevButton, .nextButton {
+      padding: 5px 10px;
+    }
+  }
+}
