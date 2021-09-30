@@ -9,7 +9,7 @@ import { FetchError } from '../FetchError';
 import { Question } from '../Question';
 import { useLocalStorage } from '../../hooks/useLocalStorage';
 
-const TIME_TO_PERFORM = 1; // minutes;
+const TIME_TO_PERFORM = 15; // minutes;
 
 const formatTime = (minutes: number, seconds: number): string => {
     const formattedMinutes = minutes < 10 ? `0${minutes}` : minutes;
